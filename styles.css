@@ -1,0 +1,35 @@
+#main {
+    display: flex;
+  }
+  
+  #left {
+    flex: 2;
+    padding: 20px;
+    background-color: lightblue;
+  }
+  
+  #right {
+    flex: 1;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  h1 {
+    color: navy;
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    color: green;
+    font-family: sans-serif;
+  }
+  
+  p {
+    color: maroon;
+    font-family: serif;
+  }
+  
