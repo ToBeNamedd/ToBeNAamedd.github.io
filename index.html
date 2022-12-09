@@ -7,8 +7,28 @@
 <body>
   <div id="main">
     <div id="left">
-      <h1>Hello, World!</h1>
-      <p>Welcome to my personal web page.</p>
+      <h1>To be Named</h1>
+      <p>Welcome to our page</p>
+    </div>
+    <div id="right">
+      <h2>About Me</h2>
+      <p>I am a big fan of Middle-earth and I enjoy reading Tolkien's books.</p>
+    </div>
+  </div>
+  <div id="main">
+    <div id="right">
+      <h1>To be Named</h1>
+      <p>Welcome to our page</p>
+    </div>
+    <div id="left">
+      <h2>About Me</h2>
+      <p>I am a big fan of Middle-earth and I enjoy reading Tolkien's books.</p>
+    </div>
+  </div>
+  <div id="main">
+    <div id="left">
+      <h1>To be Named</h1>
+      <p>Welcome to our page</p>
     </div>
     <div id="right">
       <h2>About Me</h2>
@@ -16,4 +36,14 @@
     </div>
   </div>
 </body>
+<script>
+  window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("third").style.visibility = "visible";
+    document.getElementById("fourth").style.visibility = "visible";
+  }
+}
+</script>
 </html>
