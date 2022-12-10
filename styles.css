@@ -52,22 +52,27 @@
   } */
 
   body {
-    text-align: center;
+    text-align: left;
+    background-color: #F2F2F2;
+    font-family: 'Courier New', monospace;
   }
   
   h1 {
     color: #222;
-    font-family: sans-serif;
+    /* font-family: sans-serif;
+     */
+     font-family: 'Courier New', monospace;
+
   }
   
   h2 {
     color: #444;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
   }
   
   p {
     color: #888;
-    font-family: serif;
+    /* font-family: serif; */
   }
 .left{
   padding: 5px;
@@ -80,33 +85,37 @@
 }
 
 #left {
+  border-radius: 10px;
   flex: 2;
   padding: 10px;
-  background-color: lightblue;
-  border: 2px red solid;
+  background-color: #E6E6E6;
+  /* border: 2px #E6E6E6; */
   margin-right: 10px;
 }
 
 #right {
+  border-radius: 10px;
   flex: 1;
   padding: 10px;
-  background-color: lightgreen;
-  border: 2px red solid;
+  background-color: #E6E6E6;
+  /* border: 2px red solid; */
 }
 
 /* New divs */
 #left2 {
+  border-radius: 10px;
   flex: 2;
   padding: 10px;
-  background-color: lightblue;
-  border: 2px red solid;
+  background-color: #E6E6E6;
+  /* border: 2px red solid; */
   /* margin-right: 10px; */
 }
 
 #right2 {
+  border-radius: 10px;
   flex: 1;
   padding: 10px;
-  background-color: lightgreen;
-  border: 2px red solid;
+  background-color: #E6E6E6;
+  /* border: 2px red solid; */
   margin-right: 10px;
 }
